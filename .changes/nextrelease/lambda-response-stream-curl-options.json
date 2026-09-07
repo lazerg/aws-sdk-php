@@ -1,0 +1,7 @@
+[
+    {
+        "type": "bugfix",
+        "category": "Lambda",
+        "description": "Stop applying the default Curl options to streamed commands such as InvokeWithResponseStream, which are handled by a stream handler that rejects Curl options."
+    }
+]
